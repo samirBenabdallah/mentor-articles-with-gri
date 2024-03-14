@@ -1,0 +1,24 @@
+@media screen and (max-width: 975px) {
+  body {
+    overflow-x: hidden;
+    align-items: start;
+  }
+  body main {
+    padding-block: 20px;
+    height: min-content;
+    width: 500px;
+    display: block;
+  }
+  body main section {
+    height: max-content;
+    margin-block: 10px;
+  }
+  body main section:first-child {
+    background-position: calc(100% - 30px) top;
+  }
+}
+@media screen and (max-width: 510px) {
+  body main {
+    width: 300px;
+  }
+}
